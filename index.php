@@ -11,7 +11,7 @@
         <title>Multiplication Flash Card</title>
 
         <!-- link for css file -->
-        <link rel="stylesheet" href="./sass/dist/main.css">
+        <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
         <?php include("./view/header.php") ?>

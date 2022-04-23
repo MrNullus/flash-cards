@@ -1,5 +1,5 @@
 <main class="main-results" aria-label="flash card container">
-
+                                                                                        
     <?php
         $cards = null;
 
@@ -9,14 +9,16 @@
             $cards .= "
                 <div class='card'
                     tabindex='0'
-                    arial-label={$number} multiplied by {$i} equals {$result}>
+                    arial-label={$number} multiplied by {$i} equals {$result}
+                >
 
                     <div class='card-front'>
                         {$number} X {$i}
                     </div>
 
                     <div class='card-back' 
-                        arial-label={$number} multiplied by {$i} equals {$result}>
+                        arial-label={$number} multiplied by {$i} equals {$result}
+                    >
                         {$result}
                     </div>
 
@@ -26,4 +28,5 @@
 
         echo $cards;
     ?>
+
 </main>

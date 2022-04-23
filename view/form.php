@@ -11,7 +11,7 @@
             maxlength="2"
             autofocus
             required
-        >
+        />
 
         <button class="main-entry__button">
             Go!

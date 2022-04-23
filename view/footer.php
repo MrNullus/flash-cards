@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <?php if ($number) { ?>
-        <a href="index.php">Clicck Here Another Number</a>
+        <a href="index.php">Click Here Another Number</a>
     <?php } else { ?>
         🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍🐱‍🏍
     <?php } ?>
